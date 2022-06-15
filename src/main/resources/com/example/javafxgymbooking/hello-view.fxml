@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="165.0" layoutY="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Sign in">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.1246345043182373" green="0.8157894611358643" blue="0.8042702078819275" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TextField layoutX="100.0" layoutY="110.0" prefHeight="30.0" prefWidth="200.0" promptText="Username" />
+      <PasswordField layoutX="100.0" layoutY="160.0" prefHeight="30.0" prefWidth="200.0" promptText="Password" />
+   </children>
+</AnchorPane>
