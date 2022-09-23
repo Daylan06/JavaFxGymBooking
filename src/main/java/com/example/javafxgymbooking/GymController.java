@@ -7,10 +7,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.PasswordField;
 
 
-public class HelloController {
+public class GymController {
 
     @FXML
-    private TextField Textfield1;
+    private TextField TextField1;
 
     @FXML
     private PasswordField PasswordField1;
@@ -22,8 +22,8 @@ public class HelloController {
     private Button Button1;
 
 
-    //@FXML
-   // protected void onSignInButtonPress() {
+  //  @FXML
+    //protected void onRegisterButtonPress() {
 
 
     }
