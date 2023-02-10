@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="160.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" text="Sign in">
          <effect>
@@ -52,7 +52,6 @@
             <Cursor fx:constant="CROSSHAIR" />
          </cursor>
       </Hyperlink>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5def8" height="350.0" layoutX="415.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
       <ImageView fitHeight="150.0" fitWidth="350.0" layoutX="415.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Gym%20Logo.JPG" />
