@@ -1,60 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Button layoutX="160.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" text="Sign in">
-         <effect>
-            <DropShadow>
-               <color>
-                  <Color red="0.1246345043182373" green="0.8157894611358643" blue="0.8042702078819275" />
-               </color>
-            </DropShadow>
-         </effect>
-         <cursor>
-            <Cursor fx:constant="OPEN_HAND" />
-         </cursor>
-      </Button>
-      <TextField fx:id="TextField1" layoutX="20.0" layoutY="125.0" prefHeight="30.0" prefWidth="300.0" promptText="Username" />
-      <PasswordField fx:id="PassField1" layoutX="20.0" layoutY="185.0" prefHeight="30.0" prefWidth="300.0" promptText="Password" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5def8" height="60.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
-      <Label fx:id="Label1" layoutX="10.0" layoutY="10.0" text="Gym Booking System" textFill="#3471d3" underline="true">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font></Label>
-      <Label layoutX="20.0" layoutY="89.0" text="Sign In">
-         <font>
-            <Font name="Arial" size="15.0" />
-         </font>
-      </Label>
-      <Button layoutX="323.0" layoutY="21.0" mnemonicParsing="false" text="Register">
-         <effect>
-            <DropShadow>
-               <color>
-                  <Color red="0.6547220349311829" green="0.4122197926044464" blue="0.8815789222717285" />
-               </color>
-            </DropShadow>
-         </effect>
-         <cursor>
-            <Cursor fx:constant="OPEN_HAND" />
-         </cursor>
-      </Button>
-      <Hyperlink layoutX="20.0" layoutY="225.0" text="Forgot Password?" underline="true">
-         <cursor>
-            <Cursor fx:constant="CROSSHAIR" />
-         </cursor>
-      </Hyperlink>
-      <ImageView fitHeight="150.0" fitWidth="350.0" layoutX="415.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@Gym%20Logo.JPG" />
-         </image></ImageView>
-   </children>
-</AnchorPane>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="400.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11695906519889832" green="0.8421052694320679" blue="0.7575048804283142" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="415.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="150.0" layoutY="20.0" text="Login" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField layoutX="150.0" layoutY="100.0" prefHeight="26.0" prefWidth="173.0" promptText="Username" />
+            <PasswordField layoutX="150.0" layoutY="150.0" prefHeight="26.0" prefWidth="173.0" promptText="Password" />
+            <Label layoutX="50.0" layoutY="100.0" text="Username">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label layoutX="50.0" layoutY="150.0" text="Password">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Button layoutX="100.0" layoutY="220.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="173.0" style="-fx-background-color: #3bebc7;" text="Log In" />
+            <Button layoutX="100.0" layoutY="280.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="173.0" style="-fx-background-color: #3bebc7;" text="Register" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
